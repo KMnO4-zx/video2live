@@ -222,3 +222,29 @@ __marimo__/
 
 videos/
 outputs/
+
+# macOS
+.DS_Store
+
+# SwiftPM
+.build/
+.swiftpm/
+
+# Xcode local state
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# App build products
+*.app/
+*.dSYM/
+*.xcarchive/
+*.xcresult/
+*.ipa
+*.moved-aside
